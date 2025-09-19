@@ -3,9 +3,44 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36408.4 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GRF_AppCRC.Api.Historico.Api", "GRF_AppCRC.Api.Historico.Api", "{80FA96A0-47A7-4D27-8765-51D1A7E7E302}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GRF_AppCRC.Api.Historico.Application", "GRF_AppCRC.Api.Historico.Application", "{FD88A92D-3F54-4394-A102-49ECFF3E0303}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GRF_AppCRC.Api.Historico.DataAccess", "GRF_AppCRC.Api.Historico.DataAccess", "{7F51F10C-B66A-4866-9D5C-5070FE0E1B9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GRF_AppCRC.Api.Historico.Domain", "GRF_AppCRC.Api.Historico.Domain", "{18D0699E-771E-4778-B8B7-146A8F94FDBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GRF_AppCRC.Api.Historico.Infrastructure", "GRF_AppCRC.Api.Historico.Infrastructure", "{5DD12756-68CA-4C7F-844F-6E2C4CD31698}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GRF_AppCRC.Api.Historico.Test", "GRF_AppCRC.Api.Historico.Test", "{595968A7-59CE-483F-8FCD-6157B0B718C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRF_AppCRC.Api.Historico.Test", "GRF_AppCRC.Api.Historico.Test\GRF_AppCRC.Api.Historico.Test.csproj", "{7A0A7112-0850-4996-8321-74312E2169BF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A0A7112-0850-4996-8321-74312E2169BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A0A7112-0850-4996-8321-74312E2169BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A0A7112-0850-4996-8321-74312E2169BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A0A7112-0850-4996-8321-74312E2169BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80FA96A0-47A7-4D27-8765-51D1A7E7E302} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{FD88A92D-3F54-4394-A102-49ECFF3E0303} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7F51F10C-B66A-4866-9D5C-5070FE0E1B9B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{18D0699E-771E-4778-B8B7-146A8F94FDBE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{5DD12756-68CA-4C7F-844F-6E2C4CD31698} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{595968A7-59CE-483F-8FCD-6157B0B718C7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7A0A7112-0850-4996-8321-74312E2169BF} = {595968A7-59CE-483F-8FCD-6157B0B718C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1F7A76C2-E3C1-4E83-A4B5-071D8BCA962D}
